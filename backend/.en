@@ -1,0 +1,26 @@
+# ── Server ────────────────────────────────────────────────────────────────────
+PORT=5000
+NODE_ENV=development
+
+# ── MongoDB ───────────────────────────────────────────────────────────────────
+MONGODB_URI=mongodb+srv://<username>:<password>@cluster0.xxxxx.mongodb.net/ai-resume-platform?retryWrites=true&w=majority
+
+# ── JWT ───────────────────────────────────────────────────────────────────────
+JWT_ACCESS_SECRET=your_super_secret_access_key_min_32_chars
+JWT_REFRESH_SECRET=your_super_secret_refresh_key_min_32_chars
+JWT_ACCESS_EXPIRES_IN=15m
+JWT_REFRESH_EXPIRES_IN=7d
+
+# ── OpenAI ────────────────────────────────────────────────────────────────────
+OPENAI_API_KEY=sk-...
+
+# ── Razorpay ──────────────────────────────────────────────────────────────────
+RAZORPAY_KEY_ID=rzp_test_...
+RAZORPAY_KEY_SECRET=your_razorpay_secret
+
+# ── CORS ──────────────────────────────────────────────────────────────────────
+FRONTEND_URL=http://localhost:3000
+
+# ── Pricing (in paise) ────────────────────────────────────────────────────────
+PRO_MONTHLY_PRICE=49900
+PRO_ANNUAL_PRICE=399900
