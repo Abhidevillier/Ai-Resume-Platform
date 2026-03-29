@@ -247,8 +247,3 @@ npm run dev
 - The ATS checker is purely algorithmic (no AI cost) — it works without an OpenAI key.
 - Free plan users are limited to 1 resume enforced on both frontend and backend.
 
----
-
-## License
-
-MIT — feel free to fork and build on this.
